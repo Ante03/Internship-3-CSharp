@@ -8,7 +8,6 @@ namespace Internship_3_CSharp
 {
     internal class Project
     {
-        private Guid id;
         public string NameOfProject { get; set; }
         public string DescriptionOfProject { get; set; }
         public DateTime DateStartOfProject { get; set; }

@@ -8,11 +8,10 @@ namespace Internship_3_CSharp
 {
     internal class Task
     {
-        private Guid id_Task;
         public string NameOfTask { get; set; }
         public string DescriptionOfTask { get; set; }
         public DateTime DateEndOfTask { get; set; }
-        public DateTime DurationOfTask { get; set; }
+        public DateTime StartDateOfTask { get; set; }
         public TaskStatus StatusOfTask { get; set; }
         public TaskPriority PriorityOfTask { get; set; }
 
